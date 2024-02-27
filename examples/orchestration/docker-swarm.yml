@@ -5,7 +5,7 @@ services:
     image: dt-app
     build: ../build
     ports:
-      - "8080:80"
+      - "4040:80"
     networks:
       - dt-network
 
